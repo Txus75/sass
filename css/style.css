@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font: 16px/1.6 'Montserrat', sans-serif;
+  background-color: #ddd;
+  color: #333; }
+
+h1 {
+  padding: 2em 0;
+  font-size: 2em;
+  text-align: center; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 1em 1em;
+  max-width: 1200px; }
+
+p {
+  text-align: center; }
+
+#squares > .square {
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  transition: all 0.5s; }
+  #squares > .square:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%; }
+  #squares > .square .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #squares > .square:nth-child(1) {
+    background-color: #904b82; }
+  #squares > .square:hover:nth-child(1) {
+    background-color: #4b915a;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(2) {
+    background-color: #944b86; }
+  #squares > .square:hover:nth-child(2) {
+    background-color: #4b9257;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(3) {
+    background-color: #984b8a; }
+  #squares > .square:hover:nth-child(3) {
+    background-color: #4b9354;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(4) {
+    background-color: #9c4b8e; }
+  #squares > .square:hover:nth-child(4) {
+    background-color: #4b9451;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(5) {
+    background-color: #a04b92; }
+  #squares > .square:hover:nth-child(5) {
+    background-color: #4b954e;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(6) {
+    background-color: #a44b96; }
+  #squares > .square:hover:nth-child(6) {
+    background-color: #4b964b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(7) {
+    background-color: #a84b9a; }
+  #squares > .square:hover:nth-child(7) {
+    background-color: #4e9a4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(8) {
+    background-color: #ac4b9e; }
+  #squares > .square:hover:nth-child(8) {
+    background-color: #519e4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(9) {
+    background-color: #b04ba2; }
+  #squares > .square:hover:nth-child(9) {
+    background-color: #54a24b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(10) {
+    background-color: #b44ba6; }
+  #squares > .square:hover:nth-child(10) {
+    background-color: #57a64b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(11) {
+    background-color: #b84baa; }
+  #squares > .square:hover:nth-child(11) {
+    background-color: #5aaa4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(12) {
+    background-color: #bc4bae; }
+  #squares > .square:hover:nth-child(12) {
+    background-color: #5dae4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(13) {
+    background-color: #c04bb2; }
+  #squares > .square:hover:nth-child(13) {
+    background-color: #60b24b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(14) {
+    background-color: #c44bb6; }
+  #squares > .square:hover:nth-child(14) {
+    background-color: #63b64b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(15) {
+    background-color: #c84bba; }
+  #squares > .square:hover:nth-child(15) {
+    background-color: #66ba4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(16) {
+    background-color: #cc4bbe; }
+  #squares > .square:hover:nth-child(16) {
+    background-color: #69be4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(17) {
+    background-color: #d04bc2; }
+  #squares > .square:hover:nth-child(17) {
+    background-color: #6cc24b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(18) {
+    background-color: #d44bc6; }
+  #squares > .square:hover:nth-child(18) {
+    background-color: #6fc64b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(19) {
+    background-color: #d84bca; }
+  #squares > .square:hover:nth-child(19) {
+    background-color: #72ca4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(20) {
+    background-color: #dc4bce; }
+  #squares > .square:hover:nth-child(20) {
+    background-color: #75ce4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(21) {
+    background-color: #e04bd2; }
+  #squares > .square:hover:nth-child(21) {
+    background-color: #78d24b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(22) {
+    background-color: #e44bd6; }
+  #squares > .square:hover:nth-child(22) {
+    background-color: #7bd64b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(23) {
+    background-color: #e84bda; }
+  #squares > .square:hover:nth-child(23) {
+    background-color: #7eda4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(24) {
+    background-color: #ec4bde; }
+  #squares > .square:hover:nth-child(24) {
+    background-color: #81de4b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+  #squares > .square:nth-child(25) {
+    background-color: #f04be2; }
+  #squares > .square:hover:nth-child(25) {
+    background-color: #84e24b;
+    color: #ddd;
+    transition: background-color 0.5s;
+    transform: rotateX(180deg); }
+
+/*# sourceMappingURL=style.css.map */
